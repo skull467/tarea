@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Estilos globales opcionales para que coincida con tu imagen */
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Mejora la apariencia de los inputs en modo oscuro */
+input {
+  color-scheme: dark;
+}
